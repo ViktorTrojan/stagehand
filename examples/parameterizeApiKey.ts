@@ -1,4 +1,4 @@
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 import { z } from "zod/v3";
 
 /**

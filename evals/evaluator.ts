@@ -5,11 +5,7 @@
  * The evaluator will reply with YES or NO given the state of the provided task.
  */
 
-import {
-  AvailableModel,
-  ClientOptions,
-  Stagehand,
-} from "@browserbasehq/stagehand";
+import { AvailableModel, ClientOptions, Stagehand } from "@0byte/stagehand";
 import dotenv from "dotenv";
 import {
   EvaluateOptions,

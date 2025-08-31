@@ -193,7 +193,7 @@ importers:
 
   evals:
     dependencies:
-      '@browserbasehq/stagehand':
+      '@0byte/stagehand':
         specifier: workspace:*
         version: link:..
     devDependencies:
@@ -203,7 +203,7 @@ importers:
 
   examples:
     dependencies:
-      '@browserbasehq/stagehand':
+      '@0byte/stagehand':
         specifier: workspace:*
         version: link:..
     devDependencies:

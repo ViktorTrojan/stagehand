@@ -14,7 +14,7 @@ import {
   CreateChatCompletionOptions,
   LLMClient,
   AvailableModel,
-} from "@browserbasehq/stagehand";
+} from "@0byte/stagehand";
 import { ChatCompletion } from "openai/resources";
 
 export class AISdkClient extends LLMClient {

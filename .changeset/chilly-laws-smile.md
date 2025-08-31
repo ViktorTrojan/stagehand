@@ -1,5 +1,5 @@
 ---
-"@browserbasehq/stagehand": patch
+"@0byte/stagehand": patch
 ---
 
 add webvoyager evals

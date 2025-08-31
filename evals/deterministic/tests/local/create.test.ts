@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 import path from "path";
 import fs from "fs";
 import os from "os";

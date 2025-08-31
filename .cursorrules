@@ -53,7 +53,7 @@ const { someLink } = await page.extract({
 ## Initialize
 
 ```typescript
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 import StagehandConfig from "./stagehand.config";
 
 const stagehand = new Stagehand(StagehandConfig);

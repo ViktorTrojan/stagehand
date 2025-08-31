@@ -1,4 +1,4 @@
-# @browserbasehq/stagehand
+# @0byte/stagehand
 
 ## 2.4.4
 

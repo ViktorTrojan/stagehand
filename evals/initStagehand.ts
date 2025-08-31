@@ -11,15 +11,11 @@
  */
 
 import { enableCaching, env } from "./env";
-import {
-  ConstructorParams,
-  LLMClient,
-  Stagehand,
-} from "@browserbasehq/stagehand";
+import { ConstructorParams, LLMClient, Stagehand } from "@0byte/stagehand";
 import { EvalLogger } from "./logger";
 import type { StagehandInitResult } from "@/types/evals";
 import type { AgentConfig } from "@/dist";
-import { AvailableModel } from "@browserbasehq/stagehand";
+import { AvailableModel } from "@0byte/stagehand";
 
 /**
  * StagehandConfig:

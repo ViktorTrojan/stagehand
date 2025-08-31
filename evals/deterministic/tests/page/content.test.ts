@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 import StagehandConfig from "@/evals/deterministic/stagehand.config";
 
 test.describe("StagehandPage - content", () => {

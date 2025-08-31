@@ -3,7 +3,7 @@
  *
  * In this specific example, we use observe() to get multiple actions, then iterate through each action to fill the form with sensitive data at lightning speed.
  */
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 import StagehandConfig from "@/stagehand.config";
 import chalk from "chalk";
 

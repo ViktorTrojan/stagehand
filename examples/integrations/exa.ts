@@ -1,4 +1,4 @@
-import { Stagehand } from "@browserbasehq/stagehand";
+import { Stagehand } from "@0byte/stagehand";
 
 async function example(stagehand: Stagehand) {
   const page = stagehand.page;

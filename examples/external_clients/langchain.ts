@@ -3,7 +3,7 @@ import {
   CreateChatCompletionOptions,
   LLMClient,
   AvailableModel,
-} from "@browserbasehq/stagehand";
+} from "@0byte/stagehand";
 import { zodToJsonSchema } from "zod-to-json-schema";
 import {
   AIMessage,

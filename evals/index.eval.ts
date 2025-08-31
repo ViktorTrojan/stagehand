@@ -29,7 +29,7 @@ import { AvailableModel, LLMClient } from "@browserbasehq/stagehand";
 import { env } from "./env";
 import dotenv from "dotenv";
 import { StagehandEvalError } from "@/types/stagehandErrors";
-import { CustomOpenAIClient } from "@/examples/external_clients/customOpenAI";
+import { CustomOpenAIClient } from "../lib/llm/clients/customOpenAI";
 import OpenAI from "openai";
 import { initStagehand } from "./initStagehand";
 import { AgentProvider } from "@/lib/agent/AgentProvider";

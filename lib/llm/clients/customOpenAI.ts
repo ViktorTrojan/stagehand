@@ -5,11 +5,6 @@
  * You can just pass in an OpenAI instance to the client and it will work.
  */
 
-import {
-  AvailableModel,
-  CreateChatCompletionOptions,
-  LLMClient,
-} from "@browserbasehq/stagehand";
 import OpenAI from "openai";
 import { zodResponseFormat } from "openai/helpers/zod";
 import type {
@@ -23,7 +18,9 @@ import type {
   ChatCompletionUserMessageParam,
 } from "openai/resources/chat/completions";
 import { z } from "zod/v3";
-import { CreateChatCompletionResponseError } from "@/types/stagehandErrors";
+import { AvailableModel } from "../../../types/model";
+import { CreateChatCompletionResponseError } from "../../../types/stagehandErrors";
+import { CreateChatCompletionOptions, LLMClient } from "../LLMClient";
 
 function validateZodSchema(schema: z.ZodTypeAny, data: unknown) {
   try {
@@ -41,7 +38,6 @@ export class CustomOpenAIClient extends LLMClient {
   constructor({ modelName, client }: { modelName: string; client: OpenAI }) {
     super(modelName as AvailableModel);
     this.client = client;
-    this.modelName = modelName as AvailableModel;
   }
 
   async createChatCompletion<T = ChatCompletion>({
